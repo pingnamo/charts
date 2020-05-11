@@ -1,5 +1,30 @@
 # Changelog
 
+## 1.6.0
+
+### Improvements
+
+* Added ability to override chart lifecycle.
+  ([#116](https://github.com/Kong/charts/pull/116))
+* Updated default controller version to 0.8.1.
+  ([#118](https://github.com/Kong/charts/pull/118))
+* Added ability to apply user-defined labels to pods.
+  ([#121](https://github.com/Kong/charts/pull/121))
+* Filtered serviceMonitor to disable metrics collection from non-proxy
+  services. 
+  ([#112](https://github.com/Kong/charts/pull/112))
+* Set admin API to listen on localhost only if possible.
+  ([#125](https://github.com/Kong/charts/pull/125))
+* Add `auth_type` and `ssl` settings to `smtp` block. 
+  ([#127](https://github.com/Kong/charts/pull/127))
+
+### Documentation
+
+* Corrected invalid default serviceMonitor.interval value.
+  ([#110](https://github.com/Kong/charts/pull/110))
+* Removed duplicate `installCRDs` documentation.
+  ([#115](https://github.com/Kong/charts/pull/115))
+
 ## 1.5.0
 
 ### Improvements
